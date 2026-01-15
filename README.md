@@ -74,4 +74,4 @@ export default defineConfig([
 ])
 ```
 
-[![Contributors](https://contrib.rocks/image?repo=owner/repo)](https://github.com/owner/repo/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=chenjiandmw/react-demo)](https://github.com/chenjiandmw/react-demo/graphs/contributors)
