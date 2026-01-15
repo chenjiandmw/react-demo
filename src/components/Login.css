@@ -1,0 +1,37 @@
+/* SaaS 登录页面动画效果 */
+
+/* 卡片入场动画 */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.login-card {
+  animation: slideUp 0.4s ease-out;
+}
+
+/* 响应式设计 */
+@media (max-width: 640px) {
+  .login-card {
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+}
+
+/* 暗色模式支持 */
+@media (prefers-color-scheme: dark) {
+  .login-container {
+    background: #0F172A;
+  }
+
+  .login-card {
+    background: rgba(15, 23, 42, 0.8);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+}
