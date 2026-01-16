@@ -1,4 +1,4 @@
-git config user.name "chenjiandmw1123123"
+git config user.name "chenjiandmw"
 git config user.email "2519333821@qq.com"
 
 git add .
